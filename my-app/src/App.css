@@ -1,0 +1,24 @@
+html,
+body {
+  height: 95vh;
+  margin: 0;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 95vh;
+}
+
+.left-container {
+  background-color: var(--lightgray);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.right-container {
+  background-color: var(--darkgray);
+  padding-top: 1rem;
+  text-align: center;
+}

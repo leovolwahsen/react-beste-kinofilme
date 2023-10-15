@@ -1,0 +1,11 @@
+:root {
+    --blue: #009CFC;
+    --lightgray: #282A31;
+    --darkgray: #1C1D22;
+    --golden: #FFCC02;
+}
+
+#nav { 
+    background-color: var(--blue);
+    height: 5vh;
+}
