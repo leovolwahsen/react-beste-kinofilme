@@ -1,14 +1,13 @@
-.karten-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .karten {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .karten-item {
   margin-right: 20px;
   background-color: gray;
+  min-width: 200px;
+  margin-bottom: 20px;
 }

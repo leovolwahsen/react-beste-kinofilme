@@ -6,6 +6,7 @@ import "./Karte.css"
 
 function KarteComponente() {
   return (
+    
     <div className="karten">
       {kinoFilmeDaten.map((kinoFilm, index) => (
         <Card key={index} style={{ width: "18rem" }} className="karten-item">
