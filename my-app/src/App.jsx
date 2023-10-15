@@ -1,11 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavigationComponente from "./components/Navigation/Navigation";
-// import beliebteFilme from "./assets/daten/beliebte-filme.json";
-// import KarteComponente from "./components/Karte/Karte";
-// import ReactStars from "react-rating-stars-component";
-import Hauptseite from "./Hauptseite";
-import Ueberuns from "./Ueberuns";
+import Hauptseite from "./pages/Hauptseite";
+import Ueberuns from "./pages/Ueberuns";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {

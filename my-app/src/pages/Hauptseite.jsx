@@ -1,6 +1,6 @@
 import React from "react";
-import beliebteFilme from "./assets/daten/beliebte-filme.json";
-import KarteComponente from "./components/Karte/Karte";
+import beliebteFilme from "../assets/daten/beliebte-filme.json";
+import KarteComponente from "../components/Karte/Karte";
 import ReactStars from "react-rating-stars-component";
 
 export default function Hauptseite() {
