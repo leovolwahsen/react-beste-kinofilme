@@ -9,16 +9,18 @@ body {
 }
 
 .navigation-container {
-  position: sticky
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 100vh;
-  margin-left: 7rem;
   max-width: 100%;
   object-fit: contain;
+  justify-content: center;
 }
 
 .left-container {
