@@ -1,11 +1,36 @@
 :root {
-    --blue: #009CFC;
-    --lightgray: #282A31;
-    --darkgray: #1C1D22;
-    --golden: #FFCC02;
+  --blue: #009cfc;
+  --lightgray: #282a31;
+  --darkgray: #1c1d22;
+  --golden: #ffcc02;
 }
 
-#nav { 
-    background-color: var(--blue);
-    height: 5vh;
+#nav {
+  background-color: var(--blue);
+  height: 6vh;
+}
+
+.firmenname {
+  color: white;
+  font-size: xx-large;
+  margin-left: -18rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: start;
+}
+
+.hautseiteLink {
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 0.1rem;
+  text-align: start;
+  margin-left: 25rem;
+}
+
+.ueberUnsLink {
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 0.1rem;
+  text-align: start;
+  margin-left: 4rem;
 }
