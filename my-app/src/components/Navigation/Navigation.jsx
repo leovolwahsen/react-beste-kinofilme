@@ -15,7 +15,7 @@ function NavigationComponente() {
             <Nav.Link href="/" className="hautseiteLink">
               Hauptseite
             </Nav.Link>
-            <Nav.Link href="/ueber-uns" className="ueberUnsLink">
+            <Nav.Link href="/über-uns" className="ueberUnsLink">
               Über uns
             </Nav.Link>
           </Nav>
