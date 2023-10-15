@@ -1,9 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavigationComponente from "./components/Navigation/Navigation";
 import Hauptseite from "./pages/Hauptseite";
 import Ueberuns from "./pages/Ueberuns";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import FilmDetails from "./components/Film/Film"
+import "./App.css";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <NavigationComponente className="navigation-container" />
       <Routes>
         <Route path="/" element={<Hauptseite />} />
+        <Route path="/film/:name" element={<FilmDetails />} />
         <Route path="/über-uns" element={<Ueberuns />} />
       </Routes>
     </Router>

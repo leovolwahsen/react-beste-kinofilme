@@ -17,8 +17,14 @@ export default function Hauptseite() {
         <ul>
           {beliebteFilme.map((beliebterFilm, index) => (
             <li key={index} className="iconische-filme">
+              <br />
               {beliebterFilm.name}
-              <ReactStars count={beliebterFilm.bewertung} />{" "}
+              <ReactStars
+                count={5}
+                value={beliebterFilm.bewertung}
+                half={true}
+                size={30}
+              />{" "}
             </li>
           ))}
         </ul>
