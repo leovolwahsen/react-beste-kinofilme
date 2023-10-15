@@ -1,0 +1,14 @@
+.karten-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.karten {
+  display: flex;
+}
+
+.karten-item {
+  margin-right: 20px;
+  background-color: gray;
+}
