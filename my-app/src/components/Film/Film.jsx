@@ -51,7 +51,6 @@ function FilmDetails() {
           </div>
         </div>
       </div>
-      <div className="unten"></div>
     </div>
   );
 }
