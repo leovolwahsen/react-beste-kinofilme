@@ -4,7 +4,9 @@
   --darkgray: #1c1d22;
   --golden: #ffcc02;
 }
-
+Container {
+  position: fixed;
+}
 #nav {
   background-color: var(--blue);
   height: 6vh;

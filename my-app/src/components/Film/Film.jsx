@@ -18,7 +18,7 @@ function FilmDetails() {
         <article>
           <h1>{name}</h1>
           <h6>Kinostart: 17.11.2023 - Dramafilm - 130 Min</h6>
-          <div className="bewertung">
+          <div className="bewerbung" >
             <ReactStars
               count={5}
               value={ausgesuchterFilm.bewertung}
@@ -32,11 +32,11 @@ function FilmDetails() {
             height="544,32"
             src={ausgesuchterFilm.trailer}
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write;
         encrypted-media; gyroscope; picture-in-picture;
         web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <p>© Universal Studios</p>
         </article>
@@ -47,9 +47,7 @@ function FilmDetails() {
             </div>
           </div>
           <div className="rechts">
-            <div className="beschreibung">
-              {ausgesuchterFilm.beschreibung}
-            </div>
+            <div className="beschreibung">{ausgesuchterFilm.beschreibung}</div>
           </div>
         </div>
       </div>
