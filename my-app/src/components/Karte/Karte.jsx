@@ -8,7 +8,8 @@ function KarteComponente() {
   return (
     <div className="karten">
       {kinoFilmeDaten.map((kinoFilm, index) => (
-        <Card key={index} style={{ width: "18rem" }} className="karten-item">
+        <div key={index} className="karten-item" >
+        <Card style={{ width: "18rem" }} >
           <Card.Img variant="top" src={kinoFilm.bild} alt="Kinofilm Poster" />
           <Card.Body>
             <Card.Title>{kinoFilm.name}</Card.Title>
@@ -17,6 +18,7 @@ function KarteComponente() {
             </Link>
           </Card.Body>
         </Card>
+        </div>
       ))}
     </div>
   );
