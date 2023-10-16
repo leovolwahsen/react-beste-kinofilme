@@ -1,12 +1,10 @@
 import React from "react";
+import "./ueberuns.css";
 
 export default function Ueberuns() {
   return (
-    <div
-      className="ueber-us"
-      style={{ maxidth: "800px", margin: "0 auto", padding: "20px" }}
-    >
-      <h2>Über Uns</h2>
+    <div className="container-ueberuns">
+      <h2>Über uns</h2>
       <p>
         Willkommen bei Beste Kinofilme, Ihrem zuverlässigen Partner für
         Filmbegeisterung seit 10 Jahren!

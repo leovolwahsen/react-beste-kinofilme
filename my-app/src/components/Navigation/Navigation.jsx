@@ -1,28 +1,54 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import "./Navigation.css";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import "./Navigation.css"
 
-function NavigationComponente() {
+function Navigation() {
   return (
-    <Navbar id="nav">
+    <Navbar className="container-nav" sticky="top">
       <Container>
         <Navbar.Brand href="/" className="firmenname">
           Beste Kinofilme
         </Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/" className="hautseiteLink">
-              Hauptseite
-            </Nav.Link>
-            <Nav.Link href="/über-uns" className="ueberUnsLink">
-              Über uns
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Nav className="me-auto">
+          <Nav.Link href="/" className="hauptseiteLink">
+            Hauptseite
+          </Nav.Link>
+          <Nav.Link href="/über-uns" className="überUnsLink">
+            Über uns
+          </Nav.Link>
+        </Nav>
       </Container>
     </Navbar>
-  );
+  )
 }
 
-export default NavigationComponente;
+export default Navigation;
+
+
+
+
+
+
+// import { Container, Nav, Navbar } from "react-bootstrap";
+// import "./Navigation.css"
+
+// function Navigation() {
+//   return (
+//     <Navbar className="container-nav" sticky="top">
+//       <Container>
+//         <Navbar.Brand href="/" className="firmenname">
+//           Beste Kinofilme
+//         </Navbar.Brand>
+//         <Nav className="me-auto">
+//           <Nav.Link href="/" className="hauptseiteLink">
+//             Hauptseite
+//           </Nav.Link>
+//           <Nav.Link href="/über-uns" className="überUnsLink">
+//             Über uns
+//           </Nav.Link>
+//         </Nav>
+//       </Container>
+//     </Navbar>
+//   )
+// }
+
+// export default Navigation;
