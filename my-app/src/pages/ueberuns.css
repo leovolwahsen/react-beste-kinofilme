@@ -1,0 +1,24 @@
+:root {
+  --blue: #009cfc;
+  --lightgray: #282a31;
+  --darkgray: #1c1d22;
+  --golden: #ffcc02;
+}
+
+.container-ueberuns {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--darkgray);
+}
+
+.text-content {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: var(--lightgray);
+}
+
+h2, h3 {
+  text-align: center;
+  padding-bottom: 2rem;
+}

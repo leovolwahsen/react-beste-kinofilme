@@ -4,6 +4,7 @@ import "./ueberuns.css";
 export default function Ueberuns() {
   return (
     <div className="container-ueberuns">
+      <div className="text-content">
       <h2>Über uns</h2>
       <p>
         Willkommen bei Beste Kinofilme, Ihrem zuverlässigen Partner für
@@ -49,6 +50,7 @@ export default function Ueberuns() {
         Anfragen stehen wir Ihnen gerne zur Verfügung. Kontaktieren Sie uns
         unter unserer Email oder über unsere sozialen Medien.
       </p>
+      </div>
     </div>
   );
 }

@@ -1,24 +1,28 @@
+.container-nav .nav-link {
+  color: white;
+}
+
 :root {
   --blue: #009cfc;
   --lightgray: #282a31;
   --darkgray: #1c1d22;
   --golden: #ffcc02;
 }
-Container {
-  position: fixed;
-}
-#nav {
+
+.container-nav {
   background-color: var(--blue);
-  height: 6vh;
+  height: 4rem;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .firmenname {
-  color: white;
-  font-size: xx-large;
+  font-size: 5em;
   font-weight: 600;
-  margin-bottom: 0.5rem;
   flex: 1; 
   text-align: start;
 }
@@ -29,24 +33,3 @@ Container {
   margin-bottom: 0.1rem;
   text-align: start;
 }
-/* .container-nav {
-  background-color: var(--blue);
-  color: white;
-  font-weight: 600;
-  font-size: larger;
-  padding: 10px 0;
-  margin-bottom: 10rem;
-  z-index: 1;
-  background-color: var(--blue);
-}
-
-.firmenname {
-  font-size: 24px;
-}
-
-.hauptseiteLink,
-.überUnsLink {
-  color: white;
-  margin-right: 15px;
-} */
-

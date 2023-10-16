@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <NavigationComponente className="navigation-container" />
+      <NavigationComponente />
       <Routes>
         <Route path="/" element={<Hauptseite />} />
         <Route path="/film/:name" element={<FilmDetails />} />
